@@ -41,7 +41,6 @@ Icon?
 .apdisk
 
 # Cypress cache
-Cypress/
 cypress.config.js.backup
 
 # IDE files

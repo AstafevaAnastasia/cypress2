@@ -1,0 +1,56 @@
+{
+  "homePage": {
+    "header": ".page-header__title",
+    "navDays": ".page-nav__day",
+    "movies": ".movie",
+    "movieTitle": ".movie__title",
+    "seanceTime": ".movie-seances__time",
+    "seanceTimeNotDisabled": ".movie-seances__time:not(.acceptin-button-disabled)"
+  },
+  "adminPage": {
+    "header": ".page-header__title",
+    "subtitle": ".page-header__subtitle",
+    "hallControlSection": "#hall-control",
+    "hallConfigurationSection": "#hall-configuration",
+    "priceConfigurationSection": "#price-configuration",
+    "gridSessionSection": "#grid-session",
+    "startSalesSection": "#start-sales",
+    "hallList": ".conf-step__list",
+    "addHallButton": ".button__add-hall",
+    "hallNameInput": "input[name='chairs-hall']",
+    "rowsInput": "#input_rows_count",
+    "placesInput": "#input_places_count",
+    "saveButton": ".conf-step__button-accent",
+    "movieList": ".conf-step__movies",
+    "addMovieButton": ".button__add-movie"
+  },
+  "bookingPage": {
+    "header": ".page-header__title",
+    "filmTitle": ".buying__info-title",
+    "seanceTime": ".buying__info-start",
+    "hallName": ".buying__info-hall",
+    "schemeWrapper": ".buying-scheme__wrapper",
+    "chair": ".buying-scheme__chair",
+    "chairStandart": ".buying-scheme__chair_standart",
+    "chairVip": ".buying-scheme__chair_vip",
+    "chairTaken": ".buying-scheme__chair_taken",
+    "chairSelected": ".buying-scheme__chair_selected",
+    "legend": ".buying-scheme__legend",
+    "acceptButton": ".acceptin-button",
+    "acceptButtonDisabled": ".acceptin-button[disabled='true']"
+  },
+  "loginPage": {
+    "usernameInput": "#username",
+    "passwordInput": "#password",
+    "loginButton": ".login-button",
+    "error": ".error-message"
+  },
+  "adminPanel": {
+    "dashboard": ".conf-steps"
+  },
+  "booking": {
+    "seanceLink": ".movie-seances__time",
+    "bookingForm": ".booking-form",
+    "confirmButton": ".confirm-booking"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "happyPath": {
+    "username": "admin",
+    "password": "password123"
+  },
+  "sadPath": {
+    "username": "wronguser",
+    "password": "wrongpass"
+  }
+}
