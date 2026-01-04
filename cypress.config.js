@@ -3,9 +3,10 @@ module.exports = {
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: 'http://localhost:3000', // Замените на URL вашего приложения
+    baseUrl: 'http://qamid.tmweb.ru', // реальный URL приложения
     viewportWidth: 1280,
     viewportHeight: 720,
+    defaultCommandTimeout: 10000,
     projectId: 'ivhf75',
   },
 }
