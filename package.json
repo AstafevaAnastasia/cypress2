@@ -4,7 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run",
+    "cy:run:ui": "cypress run --spec 'cypress/e2e/ui/**/*'",
+    "cy:run:admin": "cypress run --spec 'cypress/e2e/admin/**/*'",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:edge": "cypress run --browser edge",
+    "cy:run:parallel": "npm run cy:run:ui & npm run cy:run:admin",
+    "cy:run:parallel:chrome-firefox": "npx cypress run --browser chrome --spec 'cypress/e2e/ui/**/*' & npx cypress run --browser firefox --spec 'cypress/e2e/admin/**/*'"
   },
   "keywords": [],
   "author": "",
